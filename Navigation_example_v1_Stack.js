@@ -1,3 +1,20 @@
+//"Package.json"
+//Before use this code, please install these package on the package.json.
+/*{
+  "dependencies": {
+    "expo-constants": "~16.0.2",
+    "@expo/vector-icons": "^14.0.3",
+    "react-native-paper": "4.9.2",
+    "react-native-screens": "3.31.1",
+    "react-native-webview": "13.8.6",
+    "@react-navigation/native": "6.1.18",
+    "@react-navigation/native-stack": "6.11.0",
+    "react-native-safe-area-context": "4.10.5"
+  }
+}
+*/
+
+
 import React from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { Card } from 'react-native-paper';
