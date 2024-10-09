@@ -1,3 +1,24 @@
+//"Package.json" @React native, Snacks-Expo
+//Before use this code, please install these package on the package.json.
+/*{
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.3",
+    "react-native-paper": "4.9.2",
+    "react-native-screens": "3.31.1",
+    "react-native-webview": "13.8.6",
+    "react-native-reanimated": "~3.10.1",
+    "@react-navigation/drawer": "6.7.2",
+    "@react-navigation/native": "6.0.0",
+    "react-native-vector-icons": "10.2.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "@react-navigation/bottom-tabs": "6.6.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-vector-icons/MaterialIcons": "*"
+  }
+}
+*/
+
+
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
