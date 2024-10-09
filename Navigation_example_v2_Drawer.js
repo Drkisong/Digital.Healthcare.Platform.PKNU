@@ -1,3 +1,20 @@
+//"Package.json"
+//Before use this code, please install these package on the package.json.
+/*{
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.3",
+    "react-native-paper": "4.9.2",
+    "react-native-screens": "3.31.1",
+    "react-native-webview": "13.8.6",
+    "react-native-reanimated": "~3.10.1",
+    "@react-navigation/drawer": "6.7.2",
+    "@react-navigation/native": "6.0.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-safe-area-context": "4.10.5"
+  }
+}
+*/
+
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Image} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native'; // 네비게이션 컨테이너 
