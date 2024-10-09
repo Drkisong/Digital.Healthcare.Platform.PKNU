@@ -1,3 +1,16 @@
+//"Package.json"
+//Before use this code, please install these package on the package.json.
+/*{
+  "dependencies": {
+    "react-native-csv": "0.2.0",
+    "react-native-svg": "15.2.0",
+    "@expo/vector-icons": "^14.0.3",
+    "react-native-paper": "4.9.2",
+    "react-native-chart-kit": "6.12.0"
+  }
+}
+*/
+
 import { Text, SafeAreaView, StyleSheet, View } from 'react-native';
 import { Card } from 'react-native-paper';
 import AssetExample from './components/AssetExample';
