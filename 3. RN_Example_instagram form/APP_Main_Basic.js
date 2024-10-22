@@ -4,18 +4,21 @@
   "dependencies": {
     "@expo/vector-icons": "^14.0.3",
     "react-native-paper": "4.9.2",
-    "react-native-vector-icons/FontAwesome": "*",
-    "react-native-vector-icons": "10.2.0"
+    "react-native-vector-icons": "10.2.0",
+    "react-native-vector-icons/FontAwesome": "*"
   }
 }
 */
+
 import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, FlatList, SafeAreaView } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const stories = [
   { id: '1', user: 'user1', image: 'https://via.placeholder.com/100' },
   { id: '2', user: 'user2', image: 'https://via.placeholder.com/100' },
-  { id: '3', user: 'user3', image: 'https://via.placeholder.com/100' }
+  { id: '3', user: 'user3', image: 'https://via.placeholder.com/100' },
+  { id: '4', user: 'user4', image: 'https://via.placeholder.com/100' }
 ];
 
 const posts = [
@@ -44,11 +47,14 @@ const Post = ({ user, image, caption }) => (
 const App = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
-      <Text style={{fontSize:20,padding:5,fontWeight:'bold',fontColor:'blue'}}>
-        <Icon name="star" size={30} color="gold" /> 
-         Song stagram
-        <Icon name="star" size={30} color="gold" />
-      </Text>
+      <View>
+        <Text style={{padding:5, color:'blue', fontWeight:'bold', fontSize:30}}>
+          <Icon name="rocket" size={30} color="#900"/>
+             Song stargram
+          <Icon name="rocket" size={30} color="#900" />
+        </Text>
+      </View>
+
       <ScrollView style={styles.container}>
         {/* Stories Section */}
         <View style={styles.storiesContainer}>
@@ -59,7 +65,6 @@ const App = () => {
             keyExtractor={item => item.id}
           />
         </View>
-
         {/* Posts Section */}
         <FlatList
           data={posts}

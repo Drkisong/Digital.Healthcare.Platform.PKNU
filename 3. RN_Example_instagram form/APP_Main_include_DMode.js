@@ -17,7 +17,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const stories = [
   { id: '1', user: 'user1', image: 'https://via.placeholder.com/100' },
   { id: '2', user: 'user2', image: 'https://via.placeholder.com/100' },
-  { id: '3', user: 'user3', image: 'https://via.placeholder.com/100' }
+  { id: '3', user: 'user3', image: 'https://via.placeholder.com/100' },
+  { id: '4', user: 'user4', image: 'https://via.placeholder.com/100' }
 ];
 
 const posts = [
@@ -33,7 +34,7 @@ const Story = ({ user, image, textStyle }) => (
   </View>
 );
 
-const Post = ({ user, image, caption,textStyle }) => (
+const Post = ({ user, image, caption, textStyle }) => (
   <View style={styles.post}>
     <View style={styles.header}>
       <Text style={[styles.username, textStyle]}>{user}</Text>
@@ -60,11 +61,13 @@ const App = () => {
 
   return (
     <SafeAreaView style={[styles.safeArea, backgroundStyle]}>
-      <Text style={[styles.title, textStyle]}>
-        <Icon name="star" size={30} color="gold" /> 
-          Song stagram
-        <Icon name="star" size={30} color="gold" />
-      </Text>
+      <View>
+        <Text style={[styles.title, textStyle]}>
+          <Icon name="star" size={30} color="gold" /> 
+            Song stagram
+          <Icon name="star" size={30} color="gold" />
+        </Text>
+      </View>
           
     <ScrollView style={[styles.container, backgroundStyle]}>
         {/* Stories Section */}
