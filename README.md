@@ -3,5 +3,5 @@
 
 1. 실습환경
 ---
-- Programming Language: React native
-- Development Platform: Expo-snack
+- **Programming Language**: React native
+- **Development Platform**: Expo-snack
