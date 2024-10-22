@@ -1,7 +1,6 @@
 //"Package.json" @React native, Snacks-Expo
 //Before use this code, please install these package on the package.json.
-/*
-{
+/*{
   "dependencies": {
     "react-native-paper": "4.9.2",
     "@expo/vector-icons": "^14.0.3"
@@ -11,8 +10,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Button, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; 
-
-
 
 const App = () => {
   const [count, setCount] = useState(0);
