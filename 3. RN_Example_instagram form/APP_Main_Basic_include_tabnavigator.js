@@ -24,14 +24,14 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const stories = [
   { id: '1', user: 'SpaceA', image: 'https://www.nasaspaceflight.com/wp-content/uploads/2023/08/NSF-2023-08-31-17-53-58-082-scaled.jpg' },
   { id: '2', user: 'PKNU', image: 'https://www.pknu.ac.kr/upload/raonkeditordata/2022/01/28/20220128_130921259_60942.png' },
-  { id: '3', user: 'Novel', image: 'https://img.jagranjosh.com/images/2024/October/10102024/nobel-prize-in-literature-2024-.webp' },
+  { id: '3', user: 'Nobel', image: 'https://img.jagranjosh.com/images/2024/October/10102024/nobel-prize-in-literature-2024-.webp' },
   { id: '4', user: 'Tesla', image: 'https://smilegate.ai/wp-content/uploads/2022/06/Tesla_optimus..jpg' }
 ];
 
 const posts = [
   { id: '1', user: 'SpaceA', image: 'https://earthhow.com/wp-content/uploads/2018/08/Solar-System-Infographic.png', caption: 'Where are we?' },
   { id: '2', user: 'PKNU', image: 'https://itc.pknu.ac.kr/img/layout/over_img.jpg', caption: 'We are here in Chang-Ui Bilding!!' },
-  { id: '3', user: 'Novel', image: 'https://img.jagranjosh.com/images/2024/October/10102024/nobel-prize-in-literature-2024-.webp', caption: 'We got a novel prize in literature!!' },
+  { id: '3', user: 'Nobel', image: 'https://img.jagranjosh.com/images/2024/October/10102024/nobel-prize-in-literature-2024-.webp', caption: 'We got a novel prize in literature!!' },
   { id: '4', user: 'Tesla', image: 'https://smilegate.ai/wp-content/uploads/2022/06/Tesla_optimus..jpg', caption: 'Open up the world of Robotic AI!!!' }
 ];
 
