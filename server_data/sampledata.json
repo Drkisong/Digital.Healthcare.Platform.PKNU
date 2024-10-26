@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Heart",
-    "description": "This is the description for item one."
+    "description": "This is the description for Heart."
   },
   {
     "id": 2,
     "name": "Brain",
-    "description": "This is the description for item two."
+    "description": "This is the description for Brain."
   },
   {
     "id": 3,
     "name": "Muscle",
-    "description": "This is the description for item three."
+    "description": "This is the description for Muscle."
   },
   {
     "id": 4,
     "name": "Mental",
-    "description": "This is the description for item four."
+    "description": "This is the description for Mental."
   }
 ]

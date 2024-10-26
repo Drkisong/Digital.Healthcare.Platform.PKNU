@@ -1,4 +1,5 @@
-//
+////"Package.json" @React native, Snacks-Expo
+//Before use this code, please install these package on the package.json.
 /*
 {
   "dependencies": {
