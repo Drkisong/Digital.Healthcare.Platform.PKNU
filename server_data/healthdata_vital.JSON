@@ -1,0 +1,34 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 45,
+      "gender": "Male",
+      "vitalSigns": {
+        "heartRate": [72, 75, 78, 80],
+        "bloodPressure": [
+          {"systolic": 120, "diastolic": 80},
+          {"systolic": 118, "diastolic": 79},
+          {"systolic": 122, "diastolic": 82}
+        ],
+        "temperature": [98.6, 98.8, 99.0]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 36,
+      "gender": "Female",
+      "vitalSigns": {
+        "heartRate": [65, 67, 70, 72],
+        "bloodPressure": [
+          {"systolic": 115, "diastolic": 75},
+          {"systolic": 117, "diastolic": 78},
+          {"systolic": 116, "diastolic": 76}
+        ],
+        "temperature": [98.5, 98.7, 98.9]
+      }
+    }
+  ]
+}
