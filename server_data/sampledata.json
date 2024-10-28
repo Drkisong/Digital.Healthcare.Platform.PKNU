@@ -1,5 +1,4 @@
-{ 
-  [ 
+[ 
   {
     "id": 1,
     "name": "Heart",
@@ -21,4 +20,3 @@
     "description": "This is the description for Mental."
   }
  ]
-}
