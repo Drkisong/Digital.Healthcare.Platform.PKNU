@@ -7,19 +7,10 @@ const App = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          'https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/sampledata.json'
-        );
-        const json = await response.json();
-        setData(json);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData();
+    fetch('https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/sampledata.json')
+    .then((response) => response.json())
+    .then((json) => setData(json))
+    .catch((error) => console.error(error));   
   }, []);
 
   const renderItem = ({ item }) => (
