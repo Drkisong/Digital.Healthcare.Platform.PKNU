@@ -12,7 +12,7 @@
           {"systolic": 118, "diastolic": 79},
           {"systolic": 122, "diastolic": 82}
         ],
-        "temperature": [98.6, 98.8, 99.0]
+        "temperature": [36.6, 35.8, 37.0]
       }
     },
     {
@@ -21,13 +21,13 @@
       "age": 36,
       "gender": "Female",
       "vitalSigns": {
-        "heartRate": [65, 67, 70, 72],
+        "heartRate": [80, 90, 120, 110],
         "bloodPressure": [
           {"systolic": 115, "diastolic": 75},
           {"systolic": 117, "diastolic": 78},
           {"systolic": 116, "diastolic": 76}
         ],
-        "temperature": [98.5, 98.7, 98.9]
+        "temperature": [36.5, 37.7, 36.9]
       }
     }
   ]
