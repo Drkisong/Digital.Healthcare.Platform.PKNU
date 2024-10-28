@@ -2,7 +2,7 @@
   "patients": [
     {
       "id": "1",
-      "name": "John Doe",
+      "name": "Chul Soo Lee",
       "age": 45,
       "gender": "Male",
       "vitalSigns": {
@@ -17,7 +17,7 @@
     },
     {
       "id": "2",
-      "name": "Jane Smith",
+      "name": "Hana Kim",
       "age": 36,
       "gender": "Female",
       "vitalSigns": {
