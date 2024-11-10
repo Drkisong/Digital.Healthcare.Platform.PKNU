@@ -14,5 +14,10 @@
 - 3.Tab navigation
 #### 3. RN_Advance example: Instagram design
 #### 4. RN_External data loading : JSON 
+- 1.Import JSON data into APP
+- 2.Import JSON data into Chart data
+- 3.Implementing login function using JSON data
+-- a. Alert
+-- b. Navigation
 #### 5. RN_Todo List 
 - Props, state
