@@ -2,13 +2,20 @@
   {
     "email": "doonge@example.com",
     "password": "password123",
-    "name": "Doongee"
+    "name": "Doongee",
     "profile": "https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2020/07/14/13/7/8eae1e5f-bb55-4d4d-8d1b-2ab009b58a4b.jpg"
   },
   {
     "email": "bob@example.com",
     "password": "password456",
-    "name": "Sponge Bob"
+    "name": "Sponge Bob",
     "profile": "https://prodigits.co.uk/thumbs/wallpapers/p2ls/drawings/40/ab4c2c8a12289035.jpg"
+  },
+  {
+    "email": "charlie@example.com",
+    "password": "password789",
+    "name": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQnnG7r2iHijLThDbFePSufLaRIxNFlewAQ&s",
+    "profile": "non"
+
   }
 ]
