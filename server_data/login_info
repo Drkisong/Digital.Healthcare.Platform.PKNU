@@ -9,7 +9,7 @@
     "email": "bob@example.com",
     "password": "password456",
     "name": "Sponge Bob",
-    "profile": "https://prodigits.co.uk/thumbs/wallpapers/p2ls/drawings/40/ab4c2c8a12289035.jpg"
+    "profile": "'https://prodigits.co.uk/thumbs/wallpapers/p2ls/drawings/40/ab4c2c8a12289035.jpg'"
   },
   {
     "email": "charlie@example.com",
