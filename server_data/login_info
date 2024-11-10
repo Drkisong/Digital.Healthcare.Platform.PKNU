@@ -14,8 +14,8 @@
   {
     "email": "charlie@example.com",
     "password": "password789",
-    "name": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQnnG7r2iHijLThDbFePSufLaRIxNFlewAQ&s",
-    "profile": "non"
+    "name": "Charlie",
+    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQnnG7r2iHijLThDbFePSufLaRIxNFlewAQ&s"
 
   }
 ]
