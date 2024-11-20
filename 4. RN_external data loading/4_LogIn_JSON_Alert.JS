@@ -19,7 +19,7 @@ const App = () => {
 
 // GitHub JSON에서 사용자 데이터를 가져와 로그인 확인
 const handleLogin = () => {
-const JSON_INFO_URL = 'https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/login_info';
+const JSON_INFO_URL = 'https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/login_info.json';
 
 fetch(JSON_INFO_URL)
   .then(response => response.json())
