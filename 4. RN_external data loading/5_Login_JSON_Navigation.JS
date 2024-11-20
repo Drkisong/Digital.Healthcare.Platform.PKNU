@@ -21,7 +21,7 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    const JSON_URL = 'https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/login_info';
+    const JSON_URL = 'https://raw.githubusercontent.com/Drkisong/Digital.Healthcare.Platform.PKNU/refs/heads/main/server_data/login_info.json';
 
     fetch(JSON_URL)
       .then(response => response.json())
